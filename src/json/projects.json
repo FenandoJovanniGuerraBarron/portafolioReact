@@ -2,7 +2,7 @@
     {
         "name": "Pokedex",
         "domain": "https://gentle-arithmetic-4d7c49.netlify.app/",
-        "imag": "../public/pokedex.jpg",
+        "imag": "../imgs/pokedex.jpg",
         "description": ""
     },
     {
@@ -14,25 +14,25 @@
     {
         "name": "Crud",
         "domain": "https://lighthearted-raindrop-f80247.netlify.app/",
-        "imag": "../public/Crud.jpg",
+        "imag": "../imgs/Crud.jpg",
         "description": ""
     },
     {
         "name": "Rick and Morty",
         "domain": "https://zippy-jelly-a76ade.netlify.app/",
-        "imag": "../public/RickandMorty.jpg",
+        "imag": "../imgs/RickandMorty.jpg",
         "description": ""
     },
     {
         "name": "Weather-app",
         "domain": "https://eloquent-eclair-7035a4.netlify.app/",
-        "imag": "../public/Clima.jpg",
+        "imag": "../imgs/Clima.jpg",
         "description": ""
     },
     {
         "name": "Quotes",
         "domain": "https://admirable-sunshine-55e0d6.netlify.app/",
-        "imag": "../public/Quotes.jpg",
+        "imag": "../imgs/Quotes.jpg",
         "description": ""
     }
 ]
