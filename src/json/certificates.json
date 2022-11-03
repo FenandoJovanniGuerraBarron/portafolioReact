@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Fundamentos-Academlo",
+        "domain": "https://certificates.academlo.com/en/verify/06303794594455",
+        "imag": "../public/FundamentosAcademlo.png"
+    },
+    {
+        "name": "Javascript-Open",
+        "domain": "https://community.open-bootcamp.com/user/ferjov13/certificaciones/efc71f91-72a1-439c-9fad-75285ccaae06",
+        "imag": "../public/CertificadoJavascript.jpg"
+    }
+]

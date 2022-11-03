@@ -1,0 +1,31 @@
+.container__certificates{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 1.5em ;
+gap: 20px;
+color: var(--text-primary);
+background-color: var(--background);
+transition: all .5s;
+}
+
+.card__certificate{
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s transform;
+    
+}
+
+.card__certificate:hover{
+    transform: scale(0.9);
+}
+
+.card__certificate-image{
+max-width: 350px;
+height: 250px;
+cursor: pointer;
+}
+
+img{
+    width: 100%;
+}

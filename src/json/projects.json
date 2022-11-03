@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Pokedex",
+        "domain": "https://gentle-arithmetic-4d7c49.netlify.app/",
+        "imag": "../public/pokedex.jpg",
+        "description": ""
+    },
+    {
+        "name": "E-commerce",
+        "domain": "https://delicate-alfajores-eb7618.netlify.app/",
+        "imag": "../public/e-commerce.jpg",
+        "description": ""
+    },
+    {
+        "name": "Crud",
+        "domain": "https://lighthearted-raindrop-f80247.netlify.app/",
+        "imag": "../public/Crud.jpg",
+        "description": ""
+    },
+    {
+        "name": "Rick and Morty",
+        "domain": "https://zippy-jelly-a76ade.netlify.app/",
+        "imag": "../public/RickandMorty.jpg",
+        "description": ""
+    },
+    {
+        "name": "Weather-app",
+        "domain": "https://eloquent-eclair-7035a4.netlify.app/",
+        "imag": "../public/Clima.jpg",
+        "description": ""
+    },
+    {
+        "name": "Quotes",
+        "domain": "https://admirable-sunshine-55e0d6.netlify.app/",
+        "imag": "../public/Quotes.jpg",
+        "description": ""
+    }
+]

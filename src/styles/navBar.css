@@ -1,0 +1,30 @@
+.list__menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list__menu-li{
+    font-weight: bold;
+    padding: .5em;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.list__menu-li:hover{
+    background-color: black;
+    color: white;
+}
+
+
+@media (min-width:600px) {
+    .list__menu{
+        margin: 10px;
+        font-size: 20px;
+        justify-content: flex-start;
+    }
+    .menu__info{
+        display:none
+    }
+    
+}
+
