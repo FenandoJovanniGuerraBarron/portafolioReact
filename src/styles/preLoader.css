@@ -37,7 +37,7 @@
     transform: translate(-50%, -50%);
     width: 600px;
     height: 120px;
-    background: linear-gradient(transparent, #45f3ff, #45f3ff, #45f3ff, transparent);
+    background: linear-gradient(transparent, #1d6bd1,#1d6bd1, #1d6bd1, transparent);
     animation: animate 4s linear infinite;
 }
 
@@ -141,7 +141,7 @@
 .card .content .details h2{
     font-size: 1.25em;
     font-weight: 600;
-    color: #45f3ff;
+    color: #1d6bd1;
     line-height: 1.2em;
 }
 
@@ -183,7 +183,7 @@
     border-radius: 5px;
     font-size: 1em;
     font-weight: 500;
-    background: #45f3ff;
+    background: #1d6bd1;
     color: #222;
     cursor: pointer;
 }

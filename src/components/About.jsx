@@ -1,22 +1,24 @@
 import React from 'react'
 import '../styles/about.css'
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const [t, i18n] = useTranslation("global");
   return (
     <div className='about__container' >
       <div className='about__container__text' >
         <p>
-        Creatividad ilimitada, responsabilidad absoluta y 0% miedo de aprender todo lo que sea necesario para ser parte del crecimiento y éxito de un equipo.
+        {t("about.p1")}
         </p>
         <p>
-        ¿Por qué soy el developer correcto para tu proyecto?
+        {t("about.p2")}
         </p>
-        <p>Me considero una persona sanamente competitiva y a la vez muy empática, me gusta ayudar en todo el que pueda, ver crecer los proyectos en los que me involucro, y ser parte importante de su éxito.</p>
+        <p>{t("about.p3")}</p>
         <p>
-        Poseo características de liderazgo, y creo que mi entusiasmo por seguir aprendiendo cada día es contagioso. 
+        {t("about.p4")} 
         </p>
         <p>
-        Estoy preparado para afrontar cualquier reto.
+        {t("about.p5")}
         </p>
       </div>
     </div>

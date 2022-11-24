@@ -14,6 +14,7 @@ const ListProject = ({theme}) => {
                         name={project.name} 
                         img={project.imag} 
                         domain={project.domain}
+                        video={project.video}
                         />
                 ))
             }

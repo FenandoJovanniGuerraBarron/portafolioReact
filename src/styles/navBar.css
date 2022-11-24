@@ -5,7 +5,7 @@
 
 .list__menu-li{
     font-weight: bold;
-    padding: .5em;
+    padding: .5em .1em;
     border-radius: 1em;
     cursor: pointer;
 }
@@ -24,6 +24,10 @@
     }
     .menu__info{
         display:none
+    }
+
+    .list__menu-li{
+        padding: .5em .5em;
     }
     
 }

@@ -10,9 +10,15 @@ import ListCertificates from './components/ListCertificates'
 import { Route, Routes } from 'react-router-dom'
 import PreLoader from './components/PreLoader'
 import useLocalStorage from 'use-local-storage'
+import { useTranslation } from "react-i18next";
+
 
 function App() {
+
+  const [t, i18n] = useTranslation("global");
+
   const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
   const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
 
   const [show, setShow] = useState(2)
@@ -21,13 +27,13 @@ function App() {
     setShow(num)
   }
 
-  useEffect(() => {
-
-  }, [show])
 
   const switchTheme = () => {
+
     const newTheme = theme === 'light' ? 'dark' : 'light';
+
     setTheme(newTheme)
+
   }
 
 
@@ -55,11 +61,17 @@ function App() {
                       <About />
               }
             </div>
-            <button
-              onClick={switchTheme}
-              className='dark' >
-              {theme === 'light' ? <i className="fa-solid fa-moon"></i> : <i className="fa-regular fa-sun"></i>}
-            </button>
+            <div className='app_btn' >
+              <button
+                onClick={switchTheme}
+                className='dark' >
+                {theme === 'light' ? <i className="fa-solid fa-moon"></i> : <i className="fa-regular fa-sun"></i>}
+              </button>
+              <div className='lenguage' >
+                <button className='lenguage_es' onClick={() => i18n.changeLanguage("es")} ></button>
+                <button className='lenguage_en' onClick={() => i18n.changeLanguage("en")} ></button>
+              </div>
+            </div>
           </>
         } />
       </Routes>

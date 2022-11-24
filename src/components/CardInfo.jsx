@@ -6,17 +6,19 @@ import { TiSocialTwitterCircular } from 'react-icons/ti'
 import { SiGooglemaps } from 'react-icons/si'
 import { BsWhatsapp } from 'react-icons/bs'
 import { FiMail } from 'react-icons/fi'
+import { useTranslation } from "react-i18next";
 
 
 const CardInfo = ({theme}) => {
+    const [t, i18n] = useTranslation("global");
     return (
         <article className='card__info' >
             <div className='card__image' >
-                <img src={""} alt='picture' />
+                <img src={"../imgs/Logo.png"} alt='picture' />
             </div>
             <h1 className='card__title' >Frontend Fernando </h1>
             <ul>
-                <li className='card__description' >Trainee FrontEnd Developer /Jr/ React | HTML | CSS | Javascript |</li>
+                <li className='card__description' >{t("cardInfo.description")}</li>
                 <li className='card__email' >fernando_jova@hotmail.com</li>
             </ul>
             <div className='cardInfo__icons' >

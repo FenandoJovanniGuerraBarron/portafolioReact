@@ -3,36 +3,35 @@
         "name": "Pokedex",
         "domain": "https://gentle-arithmetic-4d7c49.netlify.app/",
         "imag": "../imgs/pokedex.jpg",
-        "description": ""
+        "description": "",
+        "video":"../videos/pokeapi.webm"
     },
     {
         "name": "E-commerce",
         "domain": "https://delicate-alfajores-eb7618.netlify.app/",
         "imag": "../imgs/e-commerce.jpg",
-        "description": ""
+        "description": "",
+        "video":"../videos/ecommerce.webm"
     },
     {
         "name": "Crud",
         "domain": "https://lighthearted-raindrop-f80247.netlify.app/",
         "imag": "../imgs/Crud.jpg",
-        "description": ""
+        "description": "",
+        "video":"../videos/usercrudacademlo.webm"
     },
     {
         "name": "Rick and Morty",
         "domain": "https://zippy-jelly-a76ade.netlify.app/",
         "imag": "../imgs/RickandMorty.jpg",
-        "description": ""
+        "description": "",
+        "video":"../videos/rickandmorty.webm"
     },
     {
         "name": "Weather-app",
         "domain": "https://eloquent-eclair-7035a4.netlify.app/",
         "imag": "../imgs/Clima.jpg",
-        "description": ""
-    },
-    {
-        "name": "Quotes",
-        "domain": "https://admirable-sunshine-55e0d6.netlify.app/",
-        "imag": "../imgs/Quotes.jpg",
-        "description": ""
+        "description": "",
+        "video":"../videos/weatherapp.webm"
     }
 ]

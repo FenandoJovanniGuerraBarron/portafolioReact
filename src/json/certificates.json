@@ -1,12 +1,22 @@
 [
     {
-        "name": "Fundamentos-Academlo",
-        "domain": "https://certificates.academlo.com/en/verify/06303794594455",
-        "imag": "../FundamentosAcademlo.png"
+        "name": "React-Academlo",
+        "domain": "https://certificates.academlo.com/en/verify/37913566410168",
+        "imag": "../React.jpg"
     },
     {
         "name": "Javascript-Open",
         "domain": "https://community.open-bootcamp.com/user/ferjov13/certificaciones/efc71f91-72a1-439c-9fad-75285ccaae06",
-        "imag": "../CertificadoJavascript.jpg"
+        "imag": "../javascript.jpg"
+    },    
+    {
+        "name": "Introduccion-Open",
+        "domain": "https://community.open-bootcamp.com/user/ferjov13/certificaciones/e038ee3e-2ae6-434c-b775-d8e2bf8b4730",
+        "imag": "../introduccion.jpg"
+    },
+    {
+        "name": "Fundamentos-Academlo",
+        "domain": "https://certificates.academlo.com/en/verify/06303794594455",
+        "imag": "../fundamentos.jpg"
     }
 ]
