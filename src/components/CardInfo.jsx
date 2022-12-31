@@ -16,7 +16,7 @@ const CardInfo = ({theme}) => {
             <div className='card__image' >
                 <img src={"../imgs/Logo.png"} alt='picture' />
             </div>
-            <h1 className='card__title' >Frontend Fernando </h1>
+            <h1 className='card__title' >Full Stack Fernando </h1>
             <ul>
                 <li className='card__description' >{t("cardInfo.description")}</li>
                 <li className='card__email' >fernando_jova@hotmail.com</li>

@@ -17,7 +17,7 @@ const PreLoader = () => {
                 <div className="content">
                     <div className="details">
                         <div className="actionBtn">
-                        <h2>Fernando Guerra<br /><span>Front-End</span></h2>
+                        <h2>Fernando Guerra<br /><span>Full Stack</span></h2>
                             <button className='btn1' >{t("preload.span")}</button>
                         </div>
                         <div className="data">
