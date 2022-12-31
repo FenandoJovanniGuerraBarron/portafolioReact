@@ -8,7 +8,7 @@ const Header = () => {
     const [t, i18n] = useTranslation("global");
     return (
         <header className='header' >
-            <h2 className='header__title' >Front End Web Developer</h2>
+            <h2 className='header__title' >Full Stack Web Developer</h2>
             <p className='header__description' >fernando_jova@hotmail.com</p>
         </header>
     )
