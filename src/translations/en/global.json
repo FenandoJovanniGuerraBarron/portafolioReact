@@ -3,7 +3,7 @@
         "span": "Enter"
     },
     "header": {
-        "title": "Front End Web Developer"
+        "title": "FullStack Web Developer"
     },
     "about": {
         "p1": "Unlimited creativity, absolute responsibility and 0% fear of learning whatever it takes to be a part of a team's growth and success.",
@@ -13,7 +13,7 @@
         "p5": "I am ready to face any challenge."
     },
     "cardInfo":{
-        "description":"FrontEnd Developer /Jr/ React | HTML | CSS | Javascript |"
+        "description":"FullStack Developer /Jr/ React | Node | HTML | CSS | Javascript |"
     },
     "navBar":{
         "info":"Information",
@@ -23,7 +23,7 @@
     "navInfo":{
         "title":"About Me",
         "p1":"Hears! I will be happy to work in your company",
-        "l1":"-Frontend developer(HTML,CSS,JS,ReactJS)",
+        "l1":"-Fullstack developer(HTML,CSS,JS,ReactJS,NodeJs)",
         "l2":"-Web design",
         "l3":"-Mobile design",
         "h1":"Contact width me:",
