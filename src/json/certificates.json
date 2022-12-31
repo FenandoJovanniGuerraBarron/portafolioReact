@@ -18,5 +18,15 @@
         "name": "Fundamentos-Academlo",
         "domain": "https://certificates.academlo.com/en/verify/06303794594455",
         "imag": "../fundamentos.jpg"
+    },
+    {
+        "name": "Conceptos-Open",
+        "domain": "https://community.open-bootcamp.com/user/ferjov13/certificaciones/589f125a-7820-4803-9f5c-942735305e32",
+        "imag": "../conceptos.jpg"
+    },
+    {
+        "name": "HTML+CSS-Open",
+        "domain": "https://community.open-bootcamp.com/user/ferjov13/certificaciones/a925eebb-c5c1-483a-a8bf-8893da26dfa9",
+        "imag": "../HTMLCSS.jpg"
     }
 ]
